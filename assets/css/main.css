@@ -1,0 +1,48 @@
+@import '@/assets/css/dark.css';
+@import '@/assets/css/light.css';
+
+@font-face {
+  font-family: 'xk';
+  font-weight: normal;
+  src: url('~assets/font/www.virts.app.ttf') format('truetype')
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+body {
+  background-image: var(--bg);
+}
+
+/* 全局文字不可选 */
+* {
+  font-family: 'xk';
+  color: var(--font-color);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  pointer-events: auto;
+}
+
+input {
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
+
+textarea {
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
