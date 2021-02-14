@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        aaaaaa
       </h1>
       <h2 class="subtitle">
-        My astonishing Nuxt.js project
+        test 123123
       </h2>
       <div class="links">
         <a
